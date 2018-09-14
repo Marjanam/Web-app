@@ -1,12 +1,46 @@
 .darkBG {
-    background: pink
+    background: pink;
+    border-radius: 5px;
 }
 .darkerBG {
     background: palevioletred;
+    border-radius: 5px;
 }
 .darkestBG{
     background: purple;
+    border-radius: 5px;
 }
 .nav {
-    background: paleturquoise
+    background: paleturquoise;
+    border-radius: 5px;
 }
+.myCard {
+    border: 1px solid rgb(40, 24, 56);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(40, 24, 56);
+    margin: 3%;
+
+}
+.myCard .heading {
+    background: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.myCard .body {
+    background: rgb(153, 51, 153);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.myCard .showOnHover {
+    display: none;
+}
+.myCard:hover {
+    box-shadow: 0px 0px 4px rgb(40, 24, 56); 
+}
+.myCard:hover .showOnHover {
+    display: inline-block;
+}
+
+
